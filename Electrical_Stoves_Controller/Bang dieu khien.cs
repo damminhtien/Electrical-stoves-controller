@@ -22,19 +22,19 @@ namespace Electrical_Stoves_Controller
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Label1_Click(object sender, EventArgs e)
         {
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.notifyTxt.Text = "Device Start";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            this.notifyTxt.Text = "Device Connected";
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -53,6 +53,21 @@ namespace Electrical_Stoves_Controller
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.notifyTxt.Text = "Device Stop";
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void notifyTxt_TextChanged(object sender, EventArgs e)
         {
 
         }
